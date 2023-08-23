@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form in HTML</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Form in HTML</legend>
+            <label for="name">Enter your name:</label>
+            <input id="name" type="text" placeholder="abcd">
+            <br/> <br/>
+
+            <label for="email"> Enter your email id:</label>
+            <input type="email" id="email" placeholder="abs@example.com">
+            <br/> <br/>
+
+            <label for="gender">Gender :</label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label>
+            
+            <br/><br/>
+
+            <label for="dob">Date of Birth :</label>
+            <input type="date" id="dob">
+            <br/><br/>
+
+            <label for="">Language konwn :</label>
+            <input type="checkbox" id="bengali">
+            <label for="bengali">Bengali</label>
+            <input type="checkbox" id="english">
+            <label for="english">English</label> 
+            <input type="checkbox" id="hindi">
+            <label for="hindi">Hindi</label>
+            <br/><br/>
+
+            <label for="occupation">occupation</label>
+            <select name="occupation" id="occupation">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="other">Other</option>
+            </select>
+            <br/><br/>
+
+            <label for="veichel">Number of veichel have :</label>
+            <input type="number" id="veichel" min="0">
+            <br/><br/>
+
+            <label for="address">Address:</label><br/>
+            <textarea name="address" id="address" rows="3" cols="40">ghj</textarea>
+            <br/>
+
+
+            <button>Register</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
