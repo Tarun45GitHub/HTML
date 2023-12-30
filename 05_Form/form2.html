@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Job Application</legend>
+            <label for="fname">First Name : </label>
+            <input type="text" id="fname" >
+            <label for="lname"> Last Name : </label>
+            <input type="text" id="lname">
+            <br/><br/>
+            <label for="dob">Date of Birth : </label>
+            <input type="date" id="dob">
+            <label for="gender">Gender : </label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender">
+            <label for="other">Other</label>
+            <br/><br/>
+            <label for="language">Programming language Known :</label>
+            <label for="l1">C</label> <input type="checkbox"  id="l1">
+            <label for="l2">C++</label> <input type="checkbox"  id="l2">
+            <label for="l3">Phython</label> <input type="checkbox"  id="l3">
+            <label for="l4">Java</label> <input type="checkbox"  id="l4">
+            <label for="l5">Other</label> <input type="checkbox"  id="l5">
+            <br/><br/>
+            <label for="post">Application for :</label>
+            <select name="post" id="post">
+                <option value="">chose one</option>
+                <option value="">Frontend Devoloper</option>
+                <option value="">Backend Devoloper</option>
+                <option value="">Database Devoloper</option>
+                <option value="">Blockchain Devoloper</option>
+                <option value="">Full Stack Devoloper</option>
+                <option value="">Android Devoloper</option>
+            </select>
+            <br/><br/>
+            <label for="Experience">Year of Experience :</label>
+            <input type="number" id="Experience" min="0" max="5">
+            <br/><br/>
+            <label for="resume"> Submit your resume :</label>
+            <input type="file" id="resume">
+            <br/><br/>
+            <label for="email"> Enter your email :</label>
+            <input type="email" id="email" placeholder="abs@gmail.com">
+            <br/><br/>
+            <label for="phone"> Enter your phone Number :</label>
+            <input type="tel" id="phone" placeholder="1234567890" >
+            <br/><br/>
+            <label for="username"> Create a username :</label>
+            <input type="text" id="username" placeholder="enter your email I'd">
+            <br/><br/>
+            <label for="password">Create a password :</label>
+            <input type="password" id="password" placeholder="********">
+            <br/> <br/>
+            <label for="comment">Additional comment :</label><br/><br/>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            <br/> <br/>
+            <input type="submit" id="submit">
+
+        </fieldset>
+    </form>
+</body>
+</html>
